@@ -1,0 +1,31 @@
+.dg_acc_cont{
+    display: none;
+    transform: scale(0);
+}
+
+.dg_acc_cont.open{
+    display: block;
+    transition-duration: 0.3s;
+    transform: scale(1);
+   
+}
+
+.dg_acc_title {
+    
+}
+
+.dg_acc_title h3{
+    display: inline-block;
+}
+
+.fa{
+    
+    font-size: 1.73rem;
+    transition-duration: 0.3s;
+}
+
+.openitem .fa{
+    transform: rotate(90deg);
+    transition-duration: 0.3s;
+    vertical-align: middle;
+}
